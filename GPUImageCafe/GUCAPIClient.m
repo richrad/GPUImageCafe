@@ -28,7 +28,7 @@
 
 -(void)filter:(GUCAPIClientCompleteBlocks)complete{
     
-    if(DEBUG){
+#ifdef DEBUG
         NSError *error;
         NSString *path = [[NSBundle mainBundle] pathForResource:@"filter" ofType:@"json"];
         NSString *jsonString = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error: &error];
@@ -49,7 +49,7 @@
         }
         complete(array,error);
         return;
-    }
+#endif
     
     
    

@@ -35,6 +35,7 @@
 		7F8DE0E81957311600A562C2 /* GUCAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0E71957311600A562C2 /* GUCAPIClient.m */; };
 		7F8DE0F01957B0FC00A562C2 /* GUCEditFilterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0EF1957B0FC00A562C2 /* GUCEditFilterTableViewController.m */; };
 		7F8DE0F61957E14E00A562C2 /* GUCEditFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0F51957E14E00A562C2 /* GUCEditFilterViewController.m */; };
+		9BEDD8D81BF67FBD00ABB942 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEDD8D71BF67FBD00ABB942 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		13615F281973770500654D66 /* MYGPUImageFilterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGPUImageFilterFactory.h; sourceTree = "<group>"; };
 		13615F291973770500654D66 /* MYGPUImageFilterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGPUImageFilterFactory.m; sourceTree = "<group>"; };
+		6452E3AF2D5346A15C174490 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7F06CBD71958FF35001C1754 /* GUCFilterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCFilterCollectionViewCell.h; sourceTree = "<group>"; };
 		7F06CBD81958FF35001C1754 /* GUCFilterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCFilterCollectionViewCell.m; sourceTree = "<group>"; };
 		7F06CBDB195900CF001C1754 /* filter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filter.json; sourceTree = "<group>"; };
@@ -88,7 +90,8 @@
 		7F8DE0F41957E14E00A562C2 /* GUCEditFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCEditFilterViewController.h; sourceTree = "<group>"; };
 		7F8DE0F51957E14E00A562C2 /* GUCEditFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCEditFilterViewController.m; sourceTree = "<group>"; };
 		94A6B6E2270149F78F5DFF30 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE8266F091BD48C88F1E14E5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9BEDD8D71BF67FBD00ABB942 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D6D22F09636C2E3422B0162E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +156,7 @@
 				7F8DE0D019572F6F00A562C2 /* GPUImageCafeTests */,
 				7F8DE0AA19572F6F00A562C2 /* Frameworks */,
 				7F8DE0A919572F6F00A562C2 /* Products */,
-				FE8266F091BD48C88F1E14E5 /* Pods.xcconfig */,
+				EC0D1598B9E6ADD4B423D71C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,10 +192,6 @@
 				7F8DE0E71957311600A562C2 /* GUCAPIClient.m */,
 				7F06CBE01959E023001C1754 /* GUCUserFilterStore.h */,
 				7F06CBE11959E023001C1754 /* GUCUserFilterStore.m */,
-				7F8DE0BD19572F6F00A562C2 /* Main.storyboard */,
-				7F06CBE4195A5116001C1754 /* Main_iPad.storyboard */,
-				7F8DE0C319572F6F00A562C2 /* Images.xcassets */,
-				7F8DE0B219572F6F00A562C2 /* Supporting Files */,
 				7F8DE0E019572FBE00A562C2 /* GUCFilterCollectionViewController.h */,
 				7F8DE0E119572FBE00A562C2 /* GUCFilterCollectionViewController.m */,
 				7F06CBD71958FF35001C1754 /* GUCFilterCollectionViewCell.h */,
@@ -203,6 +202,11 @@
 				7F8DE0EF1957B0FC00A562C2 /* GUCEditFilterTableViewController.m */,
 				7F8DE0F41957E14E00A562C2 /* GUCEditFilterViewController.h */,
 				7F8DE0F51957E14E00A562C2 /* GUCEditFilterViewController.m */,
+				7F8DE0BD19572F6F00A562C2 /* Main.storyboard */,
+				7F06CBE4195A5116001C1754 /* Main_iPad.storyboard */,
+				9BEDD8D71BF67FBD00ABB942 /* Launch Screen.storyboard */,
+				7F8DE0C319572F6F00A562C2 /* Images.xcassets */,
+				7F8DE0B219572F6F00A562C2 /* Supporting Files */,
 			);
 			path = GPUImageCafe;
 			sourceTree = "<group>";
@@ -236,6 +240,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EC0D1598B9E6ADD4B423D71C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6452E3AF2D5346A15C174490 /* Pods.debug.xcconfig */,
+				D6D22F09636C2E3422B0162E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +261,7 @@
 				7F8DE0A519572F6F00A562C2 /* Frameworks */,
 				7F8DE0A619572F6F00A562C2 /* Resources */,
 				E7A571DCC47C4735AA70AC6A /* Copy Pods Resources */,
+				FFBC1706B07D19A35B53D64F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,7 +297,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GUC;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "masafumi yoshida";
 				TargetAttributes = {
 					7F8DE0C819572F6F00A562C2 = {
@@ -318,6 +332,7 @@
 				7F8DE0C419572F6F00A562C2 /* Images.xcassets in Resources */,
 				7F8DE0B619572F6F00A562C2 /* InfoPlist.strings in Resources */,
 				7F06CBE5195A5116001C1754 /* Main_iPad.storyboard in Resources */,
+				9BEDD8D81BF67FBD00ABB942 /* Launch Screen.storyboard in Resources */,
 				7F06CBE9195A8C56001C1754 /* sample_2.jpg in Resources */,
 				7F06CBF0195A8ED2001C1754 /* sample_1.jpg in Resources */,
 				7F06CBDC195900CF001C1754 /* filter.json in Resources */,
@@ -364,7 +379,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBC1706B07D19A35B53D64F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -451,6 +481,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -465,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -497,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -505,14 +536,15 @@
 		};
 		7F8DE0DB19572F6F00A562C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE8266F091BD48C88F1E14E5 /* Pods.xcconfig */;
+			baseConfigurationReference = 6452E3AF2D5346A15C174490 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPUImageCafe/GPUImageCafe-Prefix.pch";
 				INFOPLIST_FILE = "GPUImageCafe/GPUImageCafe-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.linkmap.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -521,14 +553,15 @@
 		};
 		7F8DE0DC19572F6F00A562C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE8266F091BD48C88F1E14E5 /* Pods.xcconfig */;
+			baseConfigurationReference = D6D22F09636C2E3422B0162E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPUImageCafe/GPUImageCafe-Prefix.pch";
 				INFOPLIST_FILE = "GPUImageCafe/GPUImageCafe-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.linkmap.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -551,6 +584,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "GPUImageCafeTests/GPUImageCafeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.linkmap.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -569,6 +603,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPUImageCafe/GPUImageCafe-Prefix.pch";
 				INFOPLIST_FILE = "GPUImageCafeTests/GPUImageCafeTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.linkmap.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

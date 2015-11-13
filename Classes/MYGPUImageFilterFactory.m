@@ -25,7 +25,7 @@
     NSError *error;
     NSData *data =  [NSJSONSerialization dataWithJSONObject:configSet options:NSJSONWritingPrettyPrinted error:&error];
     if(error){
-        NSLog(error.description);
+        NSLog(@"%@", error.description);
         return nil;
     }
     return data;
